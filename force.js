@@ -1,5 +1,5 @@
 // main height and width
-var w = 900,
+var w = 700,
     h = 400;
 
 // how wide the node circles will be
@@ -135,8 +135,8 @@ node.append('text')
 
   // modify the x position of the node conditionally based on which node it is (parent or not)
   .attr('x', function(d, i) {
-    if (i > 0) { return circleWidth + 4}
-    else { return circleWidth - 15}
+    if (i > 0) { return circleWidth + 40}
+    else { return circleWidth - 45}
   })
 
   // y position of node conditionally based on which one it is (parent or child)
